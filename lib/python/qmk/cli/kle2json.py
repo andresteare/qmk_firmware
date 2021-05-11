@@ -9,7 +9,7 @@ from milc import cli
 from kle2xy import KLE2xy
 
 from qmk.converter import kle2qmk
-from qmk.json_encoders import InfoJSONEncoder
+from qmk.info_json_encoder import InfoJSONEncoder
 
 
 @cli.argument('filename', completer=FilesCompleter('.json'), help='The KLE raw txt to convert')

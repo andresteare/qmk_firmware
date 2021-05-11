@@ -24,6 +24,6 @@ UNICODE_ENABLE = yes        # Unicode
 CUSTOM_MATRIX = yes
 
 # project specific files
-SRC += matrix.c serial_uart.c
+SRC += matrix.c
 
 DEFAULT_FOLDER = sirius/uni660/rev2/ansi
