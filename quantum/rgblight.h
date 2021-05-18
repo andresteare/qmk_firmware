@@ -170,6 +170,9 @@ enum RGBLIGHT_EFFECT_MODE {
 #        define RGBLIGHT_LIMIT_VAL 255
 #    endif
 
+#    define RGBLED_TIMER_TOP F_CPU / (256 * 64)
+// #define RGBLED_TIMER_TOP 0xFF10
+
 #    include <stdint.h>
 #    include <stdbool.h>
 #    include "eeconfig.h"
